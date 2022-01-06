@@ -70,7 +70,7 @@ if __name__ == "__main__":
             ext=opt.ext,
         )
     else:
-        if opt.ext == type(None):
+        if opt.ext == None:
             opt.ext = "_non_iid"
 
         folder_data_splitter_non_iid(
