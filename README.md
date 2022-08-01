@@ -9,7 +9,7 @@ The current repository implements the logic regarding the tasks that the server 
 ## Clone repository
 
 ```
-git clone -b develop https://user:password@gitlab.com/cecotec/ia/miscelaneous/fl-object-detection fedlearn
+git clone -b develop https://github.com/JQ-MC/object-detection-fedlearn.git fedlearn
 cd fedlearn
 pip3 install -r requirements.txt
 ```
@@ -47,7 +47,7 @@ Set up a Federated Learning process!
 
 In order to start a Federated Learning training, it is necessary to start the server:
 
-`python3 runner_server.py --server_address [::]:8080 --rounds 2 --loads_params`
+`python3 runner_server.py --server_address [::]:8080 --rounds 2 --load_params`
 
 ```
 - server_address: ip of the server
